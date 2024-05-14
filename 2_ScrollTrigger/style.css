@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    }
+    /* #main{
+        width: 100%;
+        height: 100%;
+    } */
+    html,body{
+        background-color: black;
+        height: 100%;
+        width: 100%;
+    }
+    body{
+        overflow-x: hidden;
+
+    }
+    
+    /* .flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    } */
+    
+    /* #page1{
+        height: 100%;
+        width: 100%;
+        background-color: lightblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+    /* #page2{
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(61, 182, 222);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    } */
+    #page3{
+        height: 100%;
+     
+        background-color: rgb(35, 103, 125);
+       display: flex;
+   align-items: center;
+       width: 100%;
+       padding-block: 10%;
+        
+    }
+    /* #box{
+        background-color: crimson;
+        height: 250px;
+        width: 250px;
+    }
+
+  h1{
+    font-style: 60px;
+    background-color: rgb(211, 68, 68);
+    position: relative;
+    padding: 10px;
+  }
+  h2{
+    padding: 10px;
+    font-style: 60px;
+    background-color: yellowgreen;
+    position: relative;
+  } */
+
+  #page3 h1{
+    background: none;
+    text-transform: uppercase;
+    font-size: 25vw;
+  }
