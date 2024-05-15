@@ -9,15 +9,15 @@
         height: 100%;
     }
     html,body{
-        background-color: black;
+        background-color: #fff;
         height: 100vh;
     }
-    
-    .flex{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-       
-    }
-    
+#string{
+    height: 200px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+svg{
+     background-color: red;    
+}

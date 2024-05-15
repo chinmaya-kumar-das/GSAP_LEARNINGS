@@ -40,14 +40,14 @@
 // })
 
 gsap.to("#page3 h1",{
-    Transform:"translateX(-150%)",
+    Transform:"translateX(-200%)",
   
     scrollTrigger:{
-        trigger:"#page3 ",
+        trigger:"#page3",
         scroller:"body",
         markers:true,
         start:"top 0%",
-        end:"top -100%",
+        end:"top -150%",
         scrub:2
     }
 })
